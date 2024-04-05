@@ -155,7 +155,7 @@ export const useGameContextProvider = () => {
                 updateSelectedBox(undefined);
             });
         }
-    },[websocketClient.connected])
+    },[websocketClient.connected, gameData?.id])
 
     const updateSelectedBox = (index : number | undefined) => {
         setSelectedBox(index);
