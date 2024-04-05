@@ -12,7 +12,7 @@ export const WebSocketContextProvider = ({
     const client = useMemo(()=>{
         // Configure the WebSocket endpoint URL
         const xx = new Client();
-        const websocketUrl = 'ws://chess-game-frontend-1.onrender.com/websocket'; // Replace with your WebSocket endpoint URL
+        const websocketUrl = 'ws://chess-game-backend-vdp9.onrender.com/websocket'; // Replace with your WebSocket endpoint URL
     
         // Connect to the WebSocket server
         xx.configure({
